@@ -58,6 +58,7 @@ class StatsServiceTest {
         long expected = 5;
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testMonthsAboveAverage() {
         StatsService service = new StatsService();
